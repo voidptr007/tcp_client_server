@@ -2,8 +2,6 @@
 1. Code Structure & Build
 2. Dependencies
 3. Usage with example
-4. Design Highights
-5. License
 
 # Code Structure and build & run
 - include - contains all header files (hpp)
