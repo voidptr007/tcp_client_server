@@ -3,7 +3,7 @@
 2. Dependencies
 3. Usage with example
 
-# Code Structure and build & run
+# Code Structure
 - include - contains all header files (hpp)
 - src - contains all implementation code (cpp)
 - tests - example code illustrating usage
@@ -12,7 +12,7 @@
 - Pthread
 - cmake 3.8
 
-## How to build & run
+# How to build & run
 Create build folder in project root directory and run cmake and make commands from there. Both client and server executables will be generated in build directory. Server port is optional, default 9000 is used.
 ```console
 tcp_client_server$ mkdir build
