@@ -53,7 +53,8 @@ The callback will provide received data, size in bytes and client socket that se
         fprintf(stderr, "starting tcp server @%s:%d\n", serverip.c_str(), serverport);
         if (tcpserver.create(serverport, serverip))
         {
-            std::thread tServer = std::thread(&Network::TcpServer::start_server, &tcpserver, &MsgRecvCallback, buffer, sizeof(buffer));
+            std::thread tServer = std::thread(&Network::TcpServer::start_server, &tcpserver, 
+                                              &MsgRecvCallback, buffer, sizeof(buffer));
             tServer.join();
         }
         return 0;
