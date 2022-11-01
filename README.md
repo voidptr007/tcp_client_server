@@ -1,4 +1,8 @@
 # Project: tcp client server
+This project provides a set of APIs to create a TCP based client-server application.
+The easy and ready to use APIs will bringup a client and server in matter of minutes.
+The APIs provide extension points to implement business specific logic.
+
 1. Code Structure & Build
 2. Dependencies
 3. Usage with example
