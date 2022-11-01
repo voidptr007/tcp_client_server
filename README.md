@@ -1,5 +1,3 @@
-# Project: tcp client server
-
 ## Description
 This project provides a set of APIs to create a TCP based client-server application.
 The easy and ready to use APIs will bringup a client and server in matter of minutes.
